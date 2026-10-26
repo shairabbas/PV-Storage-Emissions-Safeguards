@@ -1,0 +1,16 @@
+{
+  "selection_rule": "Largest CV32 positive-change day in the two gas-first confirmation runs; ties by date, then load seed. Illustrative extreme, not a typical day.",
+  "date_utc": "2025-06-14",
+  "load_seed": 314159,
+  "policy": "CV32",
+  "regime": "gas_first",
+  "point_surrogate_kg": -108.71801021096917,
+  "factor_forecast_error_kg": 247.45819964199717,
+  "nonlinear_response_remainder_kg": -5.009326287108706e-13,
+  "consequential_change_kg": 138.7401894310276,
+  "empirical_cvar_kg": 1.6375789613221061e-13,
+  "solver_status_code": 0,
+  "checked_runs": 132,
+  "checked_hourly_rows": 274536,
+  "max_identity_error_kg": 1.1368683772161603e-13
+}

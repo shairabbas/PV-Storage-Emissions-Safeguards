@@ -1,0 +1,15 @@
+{
+  "README.md": "408624a0bca25c5741fe8c18c537a2978ddca3816f13c6f4efe5ee122f5bd394",
+  "plotting/build_figures.py": "86f7761fb732a119cfbf70c785869dbebd7fa7c8353dcd4cb6cc0bd71c5773db",
+  "plotting_data/Figure_5_Selected_Day_Full_Precision.csv": "ccfc99426031cc2618153fdc74575e08cefe562c772b127a3b6c0e53a33862e6",
+  "plotting_data/Figure_6_Signed_Emissions_Full_Precision.csv": "37745063878b0048ea3885f16f34751d0c17bf9ad645c98e0f8fe46db9e9d128",
+  "plotting_data/Figure_Verification.json": "6657ac9cdc6ab5278fa4a64428baabd7d9f1ce900a6557d7aeefa176dbf92673",
+  "plotting_data/Independent_Hourly_Checks.csv": "745324b598dea2666115d9a5acde73f8b68c4bcc86d8862d9ab22e17b0fbaca1",
+  "plotting_data/eia_response_model.json": "2d341e785e14ea467363424c5eb8071f27ee7e2a699a2305f78a28cc0c4747ce",
+  "plotting_data/margin_calibration.json": "dfa5de9100f5f35e8bfc3358f3d0209e525f878ecc5a366f466d9eb56b18fc15",
+  "plotting_data/v3_cv32_128_bootstrap.csv": "315b4e8a1b68f242ffa5fa137ce5715d46527749c156b06799df8ac6aa93e0e3",
+  "plotting_data/v3_cv32_128_paired_daily.csv": "48acf5607de9335bef09b9d0f1dd50721953d52b17044131021765bd8ff11f8c",
+  "plotting_data/v3_cv32_128_summary.csv": "53de4c74407778c5082b70f5547cdb5163377e9c21f20efe758b5533e7eb2a59",
+  "plotting_data/v3_failure_tradeoff_summary.csv": "1cd556fa8137b074bb3ecd37bccfdee2df2aecb245b36f8842128454d3773577",
+  "requirements.txt": "4a3b8f655b2cbaa5e7a06fea1584c7553e94ef3ff58161798cb4c120fd627c3a"
+}

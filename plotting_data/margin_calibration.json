@@ -1,0 +1,8 @@
+{
+  "rule": "Pooled 90th percentile of positive (actual model delta - point surrogate)/L1 intervention on sampled January-June 2023 CV8 schedules; zero-action days score zero.",
+  "margin_kg_per_kwh": 0.06844625955527872,
+  "train_days": 78,
+  "diagnostic_days": 81,
+  "diagnostic_coverage_of_fixed_cv8_schedules": 0.9629629629629629,
+  "guarantee": "None out of sample. The new MARGIN schedule is different from the calibration CV8 schedule; dependence, model error and regime shift preclude a coverage theorem."
+}
