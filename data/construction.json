@@ -1,0 +1,10 @@
+{
+  "seed": 20261019,
+  "rows": 43824,
+  "development": "2021-2022",
+  "validation": "2023",
+  "test": "2024",
+  "confirmation": "2025",
+  "class": "synthetic community/grid; weather-driven modelled PV; not measured operation",
+  "units": "one-hour UTC intervals; kW = kWh per interval; kg CO2; synthetic USD tariffs"
+}

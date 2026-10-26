@@ -1,0 +1,16 @@
+[
+  {
+    "original_run": "confirmation_seed314159_2025_coal_first",
+    "policy": "ROBOX",
+    "selected_days": 92,
+    "intervening_idle_days_modelled": 273,
+    "maximum_saved_hourly_difference": 0.0
+  },
+  {
+    "original_run": "v3_eia_confirmation_2024",
+    "policy": "B3",
+    "selected_days": 84,
+    "intervening_idle_days_modelled": 249,
+    "maximum_saved_hourly_difference": 0.0
+  }
+]

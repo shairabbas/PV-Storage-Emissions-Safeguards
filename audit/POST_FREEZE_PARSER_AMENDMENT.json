@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-21T10:36:02.444859+00:00",
+  "type": "post-freeze input parser compatibility",
+  "reason": "EIA-930 July-Dec 2024 changed solar/wind headers into with/without integrated storage categories; the frozen parser rejected these columns before any result was generated.",
+  "change": "Sum EIA solar categories and wind categories within each source half-year, excluding imputed/adjusted variants. Policy, scenario, margin, period and evaluation formula unchanged.",
+  "old_sha256": "51088caec92d34bf2006d78449fc39d40c4be0bd2742d3b868d9999bc998fb6e",
+  "new_sha256": "1372635d634f965b7033991b679ebf216c97ce7cbb7e1462f780099e2a97e5b5",
+  "second_correction": {
+    "timestamp_utc": "2026-10-21T10:39:37.227927+00:00",
+    "reason": "Only seven UTC hours of 2024-01-01 in the preceding source-year CSV lack workbook CO2; full day removed as frozen exclusion, while continuity across the resulting single-day gap is explicitly allowed.",
+    "new_sha256": "60c425e40b8683ca32a5864590953a5c0dd53134bf931c629704fc5725cf6931"
+  }
+}

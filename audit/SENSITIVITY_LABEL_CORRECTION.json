@@ -1,0 +1,140 @@
+{
+  "reason": "Floating-point 1.15 * 100 truncated to 114 in run-directory display labels; settings and schedules always used 1.15.",
+  "moves": [
+    {
+      "from": "sensitivity_confirmation_271828_coal_first_CV32_bias114",
+      "to": "sensitivity_confirmation_271828_coal_first_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_coal_first_CV8_bias114",
+      "to": "sensitivity_confirmation_271828_coal_first_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_coal_first_MARGIN_bias114",
+      "to": "sensitivity_confirmation_271828_coal_first_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_gas_first_CV32_bias114",
+      "to": "sensitivity_confirmation_271828_gas_first_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_gas_first_CV8_bias114",
+      "to": "sensitivity_confirmation_271828_gas_first_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_gas_first_MARGIN_bias114",
+      "to": "sensitivity_confirmation_271828_gas_first_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_solar_rich_CV32_bias114",
+      "to": "sensitivity_confirmation_271828_solar_rich_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_solar_rich_CV8_bias114",
+      "to": "sensitivity_confirmation_271828_solar_rich_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_271828_solar_rich_MARGIN_bias114",
+      "to": "sensitivity_confirmation_271828_solar_rich_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_coal_first_CV32_bias114",
+      "to": "sensitivity_confirmation_314159_coal_first_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_coal_first_CV8_bias114",
+      "to": "sensitivity_confirmation_314159_coal_first_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_coal_first_MARGIN_bias114",
+      "to": "sensitivity_confirmation_314159_coal_first_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_gas_first_CV32_bias114",
+      "to": "sensitivity_confirmation_314159_gas_first_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_gas_first_CV8_bias114",
+      "to": "sensitivity_confirmation_314159_gas_first_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_gas_first_MARGIN_bias114",
+      "to": "sensitivity_confirmation_314159_gas_first_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_solar_rich_CV32_bias114",
+      "to": "sensitivity_confirmation_314159_solar_rich_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_solar_rich_CV8_bias114",
+      "to": "sensitivity_confirmation_314159_solar_rich_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_confirmation_314159_solar_rich_MARGIN_bias114",
+      "to": "sensitivity_confirmation_314159_solar_rich_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_coal_first_CV32_bias114",
+      "to": "sensitivity_validation_0_coal_first_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_coal_first_CV8_bias114",
+      "to": "sensitivity_validation_0_coal_first_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_coal_first_MARGIN_bias114",
+      "to": "sensitivity_validation_0_coal_first_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_gas_first_CV32_bias114",
+      "to": "sensitivity_validation_0_gas_first_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_gas_first_CV8_bias114",
+      "to": "sensitivity_validation_0_gas_first_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_gas_first_MARGIN_bias114",
+      "to": "sensitivity_validation_0_gas_first_MARGIN_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_solar_rich_CV32_bias114",
+      "to": "sensitivity_validation_0_solar_rich_CV32_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_solar_rich_CV8_bias114",
+      "to": "sensitivity_validation_0_solar_rich_CV8_bias115",
+      "stored_factor": 1.15
+    },
+    {
+      "from": "sensitivity_validation_0_solar_rich_MARGIN_bias114",
+      "to": "sensitivity_validation_0_solar_rich_MARGIN_bias115",
+      "stored_factor": 1.15
+    }
+  ]
+}

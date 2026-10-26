@@ -1,0 +1,35 @@
+{
+  "training": "EIA-930 ERCOT 2022 hourly estimated production CO2 (metric tons) vs reported demand minus reported wind/solar (MW), with daily/annual Fourier controls. Ordinary least squares.",
+  "validation": "2023 held out for model assessment; no 2024 record read or inspected.",
+  "coefficients": [
+    400.49219234261204,
+    5153.584059928497,
+    -48.17774908657118,
+    -70.49344754243879,
+    110.76904370645583,
+    74.77151340001352,
+    213.4677178168773
+  ],
+  "feature_order": [
+    "intercept",
+    "residual_load_div_10000",
+    "residual_load_div_10000_squared",
+    "sin_hour",
+    "cos_hour",
+    "sin_day",
+    "cos_day"
+  ],
+  "training_hours": 8753,
+  "validation_hours": 8760,
+  "validation_level_mae_tonnes_per_hour": 830.2540970544171,
+  "validation_level_bias_tonnes_per_hour": 343.74616422869786,
+  "validation_marginal_proxy_kg_per_kwh_quantiles": [
+    0.447482702414743,
+    0.4635812972720208,
+    0.48298970349154596,
+    0.4961462759231031,
+    0.5034122513293435
+  ],
+  "response": "Partial derivative of fitted associational CO2-level model with respect to residual load, clipped to [0,1.5] kg/kWh. No causal marginal identification or observed intervention response.",
+  "source_sha256": "36316b30e38e679df6aabc23a522df7a0c10018c091ee4bf4ff8c98535bd3dd7"
+}

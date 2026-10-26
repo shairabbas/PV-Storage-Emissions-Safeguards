@@ -1,0 +1,67 @@
+{
+  "original_columns": {
+    "aef_eia_erco": "1000 * estimated_CO2_tonnes / demand_MW; falsely kg/kWh",
+    "eia_baseline_kg": "0.2 * 1000 * estimated_CO2_tonnes; falsely kg/hour"
+  },
+  "correct_columns": {
+    "aef_eia_erco": "estimated_CO2_tonnes / demand_MW, numerically kg/kWh",
+    "eia_baseline_kg": "0.2 * estimated_CO2_tonnes, kg/hour for 0.2-kW-per-MW scaling"
+  },
+  "changed_frame_columns_only": [
+    "aef_eia_erco",
+    "eia_baseline_kg"
+  ],
+  "representative_source_reconstructions": [
+    {
+      "year": 2023,
+      "utc_end": "2023-01-01 00:00:00+00:00",
+      "source_co2_metric_tonnes_per_hour": 12597.078668998924,
+      "source_demand_MW": 40795.0,
+      "corrected_baseline_kg_per_hour": 2519.415733799785,
+      "corrected_average_factor_kg_per_kwh": 0.3087897700453223,
+      "model_marginal_factor_kg_per_kwh": 0.49086098413731
+    },
+    {
+      "year": 2024,
+      "utc_end": "2024-01-02 00:00:00+00:00",
+      "source_co2_metric_tonnes_per_hour": 21954.800077114218,
+      "source_demand_MW": 46888.0,
+      "corrected_baseline_kg_per_hour": 4390.960015422844,
+      "corrected_average_factor_kg_per_kwh": 0.4682392099708714,
+      "model_marginal_factor_kg_per_kwh": 0.4759615334547969
+    }
+  ],
+  "policies_with_changed_actions_by_phase": {
+    "validation": [
+      "B3",
+      "CV128",
+      "CV32",
+      "CV32_S11",
+      "CV32_S23",
+      "CV32_SEAS",
+      "CV8",
+      "G_worst",
+      "S1"
+    ],
+    "confirmation": [
+      "B3",
+      "CV128",
+      "CV32",
+      "CV32_S11",
+      "CV32_S23",
+      "CV32_SEAS",
+      "CV8",
+      "G_worst",
+      "S1"
+    ]
+  },
+  "maximum_action_l1_kwh": 111782.41995767789,
+  "largest_non_target_frame_roundtrip_difference": 3.552713678800501e-15,
+  "calibration_dependency": "Margin calibration uses only synthetic 2023 frame and CV8 schedules; EIA columns absent. No EIA recalibration is required.",
+  "response_model_dependency": "EIA response coefficients are fitted directly from raw EIA estimated tonnes and MW, before average-factor/baseline frame construction; source SHA-256 unchanged.",
+  "scenario_dependency": "Residual blocks sample mef_eia_erco, which is unchanged. Repeating scenario preparation yields identical blocks and seeds.",
+  "optimization_dependency": "aef_eia_erco enters its 168-hour forecast and carbon-price import objective for the applicable policies; corrected actions differ. All 15 policies per phase were rerun to preserve matched comparisons.",
+  "s1_numerical_sensitivity": "S1 has no direct aef or baseline dependency in optimize(), but its saved actions differ between legacy and corrected CSVs despite equal model objective values. The corrected CSV round-trip perturbs two unrelated flexible-load inputs by at most 3.6e-15 kWh; the MILP has alternative near-equal optima, so S1 differences must not be attributed causally to the unit conversion. The corrected S1 output is retained with this sensitivity disclosed.",
+  "evaluation_dependency": "eia_baseline_kg changes absolute reference/system emissions, not reference-relative delta directly. Changed decisions can change delta. Attribution ledger uses aef_eia_erco.",
+  "settlement_dependency": "Settlement uses expenses, not factors directly; action changes can alter expenses and hence participant charges/benefits. All were recomputed in corrected runs."
+}

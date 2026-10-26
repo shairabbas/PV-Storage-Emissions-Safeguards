@@ -1,0 +1,15 @@
+{
+  "version": "3",
+  "parent_manifest_sha256": "c24f485c0dda9ebe427711c5e5e85fa25f65af6c1be65003c56f0bba7eb921d8",
+  "parent_manifest_files_verified": 907,
+  "frozen_code_files_verified": 6,
+  "interaction_usd_per_sampled_day": -2.603633209310118,
+  "corrected_eia_policy_runs": 30,
+  "new_cv128_runs": 12,
+  "paired_days_per_regime": 552,
+  "margin_idle_days": 84,
+  "independent_replay_runs": 315,
+  "independent_replay_hours": 557640,
+  "independent_replay_max_residual": 1.0237158676318359e-08,
+  "scope": "Numerical/source-lineage audit, not causal or external validity proof."
+}

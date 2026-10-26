@@ -1,0 +1,7 @@
+{
+  "tolerance_kwh_per_day": 1e-06,
+  "days": 84,
+  "max_l1_intervention_kwh_per_day": 1.3216094885137863e-11,
+  "max_battery_throughput_kwh_per_day": 4.308155303580547e-12,
+  "idle_days": 84
+}

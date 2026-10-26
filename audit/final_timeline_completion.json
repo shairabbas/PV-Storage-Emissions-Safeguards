@@ -1,0 +1,13 @@
+{
+  "classification": "Explicit intermittent policy: idle storage and fixed reference tasks on every intervening day; selected-day schedules and all exogenous 168-hour forecasts retained.",
+  "model_assumptions": "No self-discharge; auxiliary use is proportional to charge/discharge and thus zero while idle. Battery energy and attributed carbon stay constant on skipped days. No unmodelled storage action is permitted.",
+  "runs": 117,
+  "selected_days": 10644,
+  "completed_skipped_days": 31581,
+  "max_state_gap": 0.0,
+  "max_conservation_error": 1.1368683772161603e-13,
+  "max_skipped_meter_kw": 1082.4761999999998,
+  "max_service_error": 1.4210854715202004e-14,
+  "max_reference_exchange_error": 0.0,
+  "calendar_note": "Full-window expense includes reference operation on skipped dates; paper outcomes are per selected active day. All compared policies use identical selected and skipped calendars within each realization."
+}

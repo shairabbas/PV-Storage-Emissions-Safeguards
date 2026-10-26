@@ -1,0 +1,12 @@
+{
+  "baseline": "D:\\2026\\Solar_PV_Forecasting_Benchmark\\Solar_PV_Generation_LaTex_Work\\Carbon_Storage_Study_submission_candidate_V6",
+  "checked_file_count": 1010,
+  "frozen_directories": [
+    "src",
+    "data",
+    "results",
+    "tables"
+  ],
+  "mismatches": [],
+  "interpretation": "Byte-level equality of V6 and V7 input, implementation and saved-output files; this does not validate the underlying science."
+}

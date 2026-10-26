@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-10-21T10:32:07.312158+00:00",
+  "version_1": "Completed frozen deliverable preserved unmodified; 2024-2025 version-1 results were already inspected.",
+  "research_question": "When does a finite-scenario carbon guard fail against a separately replayed consequential response, after isolating meter, flexibility and storage?",
+  "synthetic_final": {
+    "year": 2025,
+    "daily_stride": 4,
+    "independent_generation_seeds": [
+      314159,
+      271828
+    ],
+    "regimes": [
+      "coal_first",
+      "gas_first",
+      "solar_rich"
+    ],
+    "weather": "previously available measured NASA weather; synthetic load/PV shocks independently generated per seed",
+    "status": "no new synthetic seed generated or evaluated before this freeze"
+  },
+  "external_final": {
+    "source": "EIA-930 ERCO demand, solar, wind and EIA-estimated production CO2",
+    "year": 2024,
+    "first_eligible_day": "2024-02-01",
+    "daily_stride": 4,
+    "response": "2022-fitted associational residual-load derivative; model-generated counterfactual, not observed causal response",
+    "leakage": "Seven 2024-01-01 UTC EIA input rows appeared at end of 2023 source-year CSV and were inspected; Jan 1-Jan 31 excluded prospectively."
+  },
+  "policies": [
+    "B0",
+    "M0",
+    "M1",
+    "S0",
+    "S1",
+    "B3",
+    "CV8",
+    "CV32",
+    "CV128",
+    "CV32_SEAS",
+    "CV32_S11",
+    "CV32_S23",
+    "MARGIN",
+    "G_worst",
+    "ROBOX"
+  ],
+  "margin_kg_per_kwh": 0.06844625955527872,
+  "scenario_sampling": "8 original; 32 and 128 development blocks; repeated seeds 11,23 and quarter-conditioned 32",
+  "carbon_factor_sensitivity": "forecast multipliers 0.85 and 1.15 for CV8/CV32/MARGIN; scenario-residual scales 0.5 and 1.5 for CV8/CV32",
+  "evaluation": "paired identical realizations; cost, emissions, positive violation mass/count, 95th percentile, service/ledger feasibility, solver status/runtime, forecast and scenario coverage, error decomposition; independent replay",
+  "interpretation": "margin has no unconditional coverage guarantee; public ERCOT check has no observed intervention response; no submission-readiness inference from PDF compilation",
+  "code_sha256": {
+    "src/accounting.py": "17ac299466ef36d5bb0627b6f4d7b9c67602cf14ba704656b2cfbe094e4fae59",
+    "src/data.py": "c414dfc095c0c8fec58048e52a2c020d8ce99f490d1c242a6bcdac3eeb49b451",
+    "src/optimization.py": "304c408b382dcb03d8b46cb8ec22d2e2ade6977b01abf1055c1ecf8d0dd6c483",
+    "src/simulation.py": "fadc7bd8824b3a31f512c2b7ab06de70d4161c63ec989c8e34db1b8438331272",
+    "src/__init__.py": "fe6b82ae145cf2293e7a0d132a637f030e1636e18354ab6bd65a4e7fe1dc7e23",
+    "scripts/analyze_v2.py": "56e4a861bace3468c10e306b07701a1103f4c45e69ce79f500a61afe81ae8341",
+    "scripts/audit_v1.py": "ae15ff943bd762426d65d681466b434578de0c709bd23de0d92abe1df883716c",
+    "scripts/build_eia_frame.py": "51088caec92d34bf2006d78449fc39d40c4be0bd2742d3b868d9999bc998fb6e",
+    "scripts/calibrate_margin.py": "a62e2651712ac45877603957f1f7cced678746fa7939091f607af9954d549805",
+    "scripts/fit_eia_response.py": "d2a4b2b7004abdaf66f8678e8b5b56809420bb6309649eaec43d376ccfb5e31d",
+    "scripts/freeze_v2.py": "cbd2e0b739cd89c441334f552c8bff92a0cc59657788cca00f9a465f46943b9d",
+    "scripts/pilot_sizes.py": "b253d3c00d92a540f2272bb7fc41b8a21cdd87cda28db6f47f7270af8a5bcb2a",
+    "scripts/prepare_eia_dev.py": "0f3b1544c876e451601a1ef42146019a857673bb7f94e0f8744ef978de5bf58f",
+    "scripts/replay_v2.py": "882d135aa7f4f3cdb9b08a8ba3d6a4af624588cfd07154eec49af4607eb6ee38",
+    "scripts/run_eia.py": "b33ddaf60903fadead01d4ead736219f7d4d55b0ad5fb588759b964b1e763412",
+    "scripts/run_sensitivity.py": "b246d6498ee5e40f831447f36f683b9e1c276d245ffa8f77a5eceef9008fb468",
+    "scripts/run_v2.py": "8ccbe5890c80d2db94fa1259403b893fcbe35b23f5b1fb98ac76d32dab3b8512"
+  }
+}

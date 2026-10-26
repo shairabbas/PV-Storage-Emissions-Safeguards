@@ -1,6 +1,6 @@
 # PV-Storage-Emissions-Safeguards
 
-Plotting code and derived data accompanying **“Failure conditions of finite-scenario emissions safeguards in a shared photovoltaic-storage simulation.”**
+Research code, processed inputs, corrected saved outcomes, and plotting data accompanying **“Failure conditions of finite-scenario emissions safeguards in a shared photovoltaic-storage simulation.”**
 
 ## Study purpose
 
@@ -15,15 +15,21 @@ Results are conditional on the stated models and sampled dates. They do not esta
 | `plotting/build_figures.py` | Regenerates the presentation plots from the supplied CSV files. |
 | `plotting_data/` | Derived summary tables, paired scenario comparisons, selected-day hourly diagnostics, response coefficients and calibration/verification records. |
 | `requirements.txt` | Versions used for the figure-build check of this release. |
-| `SHA256SUMS.json` | SHA-256 checksums of the release files, excluding this checksum file. |
+| `SHA256SUMS.json` | Checksums for the expanded repository, excluding checksum inventories. |
+| `CODE_DATA_README.md` | Corrected-output boundary, units, omissions, and replay commands. |
+| `src/`, `scripts/` | Simulation, optimization, accounting, calibration, replay, audit, and analysis code. |
+| `data/`, `results/` | Corrected processed inputs, policy configurations, daily outcomes, and hourly schedules. |
+| `tables/`, `audit/` | Corrected analyses and verification records. |
+| `requirements-research.txt` | Research and replay dependencies. |
+| `MANIFEST_SHA256_FULL.csv` | Checksums for the expanded repository. |
 
-This is a **plotting and derived-data release**. It does not contain the optimizer, full simulation workflow, raw source inputs or complete saved schedules; it cannot independently reproduce the full study. Manuscript, supplementary document, literature files and pre-rendered figures are excluded. The script still generates all five main figures and the supplementary robustness plot locally.
+The repository now includes the corrected optimizer, processed inputs and saved schedules. Raw public downloads, manuscript and supplementary documents, literature, pre-rendered figures, caches, and known erroneous outputs are excluded. Some source-building scripts require omitted raw inputs; the final processed frames needed to inspect or rerun reported policies are included. The script still generates all five main figures and the supplementary robustness plot locally.
 
-The uploaded data are unchanged from the supplied revised package. The plotting script has one portability adjustment: it creates its output directory if absent.
+The previously uploaded plotting files remain unchanged. The earlier plotting-only README and checksum record are preserved under `audit/legacy_plotting_release_*`; that historical checksum record has six mismatches, documented in `audit/legacy_plotting_release_checksum_audit.json`. Use the current root `SHA256SUMS.json` or `MANIFEST_SHA256_FULL.csv` for verification. The plotting script has one portability adjustment: it creates its output directory if absent.
 
 ## Software requirements
 
-Python with NumPy, pandas and Matplotlib is required. A figure-build check was performed with Python 3.12.14 and the pinned package versions in `requirements.txt`. No optimization solver or LaTeX installation is needed for this plotting workflow. Other Python/package combinations have not been verified here.
+Python with NumPy, pandas and Matplotlib is required. A figure-build check was performed with Python 3.12.14 and the pinned package versions in `requirements.txt`. Replay and optimization use the dependencies in `requirements-research.txt`, including SciPy's bundled HiGHS solver; LaTeX is not needed for plotting. Other Python/package combinations have not been verified here.
 
 ## Reproduce the plots
 
@@ -46,20 +52,20 @@ The script creates `figures/` and writes PDF, SVG and PNG versions of:
 - `Figure_5_Signed_Emissions`
 - `Figure_S1_Robustness`
 
-Expected output: 18 image files and a completion message. Existing files with these names are overwritten. Plotting does not rerun optimization, independently replay saved schedules or recalculate confidence intervals. File bytes can differ between rendering environments.
+Expected output: 18 image files and a completion message. Existing files with these names are overwritten. Plotting does not rerun optimization, independently replay saved schedules or recalculate confidence intervals. For replay and analysis, follow [`CODE_DATA_README.md`](CODE_DATA_README.md). File bytes can differ between rendering environments.
 
 ## Data provenance and access
 
-**Public upstream sources:** the study uses NASA POWER weather and EIA-930/ERCO operating inputs. See [NASA POWER methodology](https://power.larc.nasa.gov/docs/) and [EIA-930 methodology](https://www.eia.gov/electricity/930-content/about.html). Their raw files and acquisition manifests are not included in this release; exact extraction versions, URLs and checksums must be supplied with any future full-data release.
+**Public upstream sources:** the study uses NASA POWER weather and EIA-930/ERCO operating inputs. See [NASA POWER methodology](https://power.larc.nasa.gov/docs/) and [EIA-930 methodology](https://www.eia.gov/electricity/930-content/about.html). Their raw files are not included; `data/EXTERNAL_DATA_README.md` and `audit/eia_provenance.json` provide source URLs, checksums, acquisition details, and limitations.
 
 **Derived/model-generated data:** the bundled CSV and JSON files contain analysis products, synthetic participant profiles or summaries, selected-hour diagnostics, fitted response parameters and calibration records. EIA production CO2 is estimated; the regional intervention response is observationally fitted and model-generated. These are not measured battery-induced emissions reductions. Reported changes are relative to fixed tasks and idle storage, rather than absolute grid emissions.
 
-**Restricted data:** this release does not identify or include a restricted dataset. The absence of raw inputs is a release-scope limitation, not evidence that those inputs are restricted. Upstream public availability does not itself specify redistribution terms. **[VERIFY before extending this release: source-specific terms and any access restrictions.]**
+**Restricted data:** this release does not identify or include a restricted dataset. The absence of raw inputs is a release-scope limitation, not evidence that those inputs are restricted. Upstream public availability does not itself specify redistribution terms. Source-specific terms should be checked before redistributing raw files.
 
 ## Citation
 
 Publication metadata has not been verified. Until a final citation is available, identify the manuscript by the title above and cite the exact repository commit used:
 
-> [VERIFY: authors]. “Failure conditions of finite-scenario emissions safeguards in a shared photovoltaic-storage simulation.” [VERIFY: publication year, venue and DOI, if assigned]. Code/data: https://github.com/shairabbas/PV-Storage-Emissions-Safeguards, commit [insert commit used].
+> Muhammad Abbas and Syed Sabahat Hussain Bukhari. “Failure conditions of finite-scenario emissions safeguards in a shared photovoltaic-storage simulation.” 2026. Code/data: https://github.com/shairabbas/PV-Storage-Emissions-Safeguards, commit [insert commit used].
 
-No acceptance, journal publication or archival DOI is claimed. Code/data licensing is **[VERIFY: author-selected license not yet supplied]**; upstream data retain their applicable terms.
+No acceptance, journal publication or archival DOI is claimed. A code/data license has not yet been selected; upstream data retain their applicable terms.

@@ -1,0 +1,22 @@
+{
+  "validation_hours": 8760,
+  "mean_observed_tonnes_per_hour": 17446.984413373142,
+  "mae_tonnes_per_hour": 830.2540970544171,
+  "normalized_mae_fraction_of_mean_observed": 0.04758725504552099,
+  "bias_predicted_minus_observed_tonnes_per_hour": 343.74616422869786,
+  "rmse_tonnes_per_hour": 989.7566829000955,
+  "median_error_tonnes_per_hour": 374.51651758816934,
+  "error_p05_p95_tonnes_per_hour": [
+    -1131.046057365561,
+    1785.9966250926907
+  ],
+  "quarter_mae_tonnes_per_hour": {
+    "1": 1300.4871527172636,
+    "2": 577.6690049112019,
+    "3": 700.6181483229147,
+    "4": 749.7190498660976
+  },
+  "previous_day_same_hour_persistence_mae_tonnes_per_hour": 2706.98135469915,
+  "persistence_comparison_hours": 8736,
+  "interpretation": "Predictive level diagnostics of an observational EIA-estimated CO2 regression; no causal marginal validation."
+}

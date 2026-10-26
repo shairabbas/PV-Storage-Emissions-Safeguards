@@ -1,0 +1,45 @@
+{
+  "frozen_utc": "2026-10-21T12:08:15.501956+00:00",
+  "parent": "Version 2 copied byte-for-byte; its 907-file manifest verified before V3 edits.",
+  "interpretation": "All 2025 synthetic dates and original scenario draws were already inspected in V2. New scenario draws are prospective replication of this inspected benchmark, not untouched external confirmation.",
+  "new_runs": {
+    "policy": "CV128 only",
+    "scenario_draw_seeds": [
+      11,
+      23
+    ],
+    "matched_existing_CV32_policies": [
+      "CV32_S11",
+      "CV32_S23"
+    ],
+    "demand_seeds": [
+      314159,
+      271828
+    ],
+    "regimes": [
+      "coal_first",
+      "gas_first",
+      "solar_rich"
+    ],
+    "year": 2025,
+    "every_nth_day": 4,
+    "days_per_run": 92,
+    "number_of_new_runs": 12
+  },
+  "analysis": {
+    "daily_loss": "max(delta_emissions_kg,0)",
+    "paired_difference": "CV128 minus CV32 on identical synthetic demand seed, regime, calendar date, scenario draw seed",
+    "resampling": "stratified by demand seed and scenario draw; circular blocks of 1,2,4,7 sampled observations (=4,8,16,28 calendar days); 2000 deterministic replicates each; descriptive conditional intervals",
+    "primary_interval_block": 4,
+    "no_additional_draws": "Do not add scenario seeds after observing outcomes."
+  },
+  "code_sha256": {
+    "src/accounting.py": "17ac299466ef36d5bb0627b6f4d7b9c67602cf14ba704656b2cfbe094e4fae59",
+    "src/data.py": "c414dfc095c0c8fec58048e52a2c020d8ce99f490d1c242a6bcdac3eeb49b451",
+    "src/optimization.py": "304c408b382dcb03d8b46cb8ec22d2e2ade6977b01abf1055c1ecf8d0dd6c483",
+    "src/simulation.py": "fadc7bd8824b3a31f512c2b7ab06de70d4161c63ec989c8e34db1b8438331272",
+    "src/__init__.py": "fe6b82ae145cf2293e7a0d132a637f030e1636e18354ab6bd65a4e7fe1dc7e23",
+    "scripts/run_v3_scenario_replications.py": "218751492c351710126deca2dfb7943f65ed16ea9c01d672588368c391f92b3f"
+  },
+  "v2_manifest_sha256": "c24f485c0dda9ebe427711c5e5e85fa25f65af6c1be65003c56f0bba7eb921d8"
+}

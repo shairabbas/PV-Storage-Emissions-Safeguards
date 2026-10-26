@@ -1,0 +1,277 @@
+{
+  "scenario_comparisons": [
+    {
+      "demand_seed": 271828,
+      "regime": "coal_first",
+      "draw": "default",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 3,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "0e6dbd7a2e0f8cf2ba11af1c18506bc2b7ef6a8e03e96609fb0f734da4f2b043",
+      "CV128_config_sha256": "ca26d587788c32ef5b61b9367e0b3c00f0a643ff739533830b3192ad19ffe6e0"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "coal_first",
+      "draw": "11",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "4e080c761764c038ad12cbdcce375e55535dfb0576b125e8a824e487f3e5f9b8",
+      "CV128_config_sha256": "73da16ed507b76818dd5a752373535bd816b7a3943abd63b806e9c37a3586d7d"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "coal_first",
+      "draw": "23",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "b1610a651c671431e859ab773e3ef8b338e5e62a2573a62a1f47fb85c094db57",
+      "CV128_config_sha256": "d251d361ee2e1e25d28c23586dddf544e5b77255a97ac67e02b4b1642e7d0484"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "gas_first",
+      "draw": "default",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 3,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "04181bc44eafe1d85dfac67d1891c87add5d7ae95351c0b866845d21b2100f5e",
+      "CV128_config_sha256": "5da977072e9ff2eca4191911595a0f1ded7d92afff700782dff93174e941eabb"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "gas_first",
+      "draw": "11",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "a042bb1ac4e10d51d66f8656e5f08c47cf05464a0f5b442faf9c8596a54b3036",
+      "CV128_config_sha256": "986f7fe264cab13c146db0992fbe7b44761d1a35746092e4903878961f0727cc"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "gas_first",
+      "draw": "23",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "42a0a88d5be0dfd98463dc76590eecbebd5b1736f7060848458378fc702b876d",
+      "CV128_config_sha256": "3d8aad24cace8f92ba7f5d8724257bab4c4c472fdb6003b6150ef06e4b962f9c"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "solar_rich",
+      "draw": "default",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 3,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "c82e0c31c2c931bbda69826693b5476f921b15c4ea985fadf0eec69a0fe7a8f8",
+      "CV128_config_sha256": "f237afd5269bc9b98ab0b0179bf860560492d2f2317e89ec8b6d0ed4a589f9c1"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "solar_rich",
+      "draw": "11",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "5b97bd7ab4b274b4fe0e3af1bf604db4266ea8b2b7dad140b6c331ccc182a2db",
+      "CV128_config_sha256": "8aba7f5c79820e1b147046d6105636979fb544640c6a9842f7b9bb5c9d826991"
+    },
+    {
+      "demand_seed": 271828,
+      "regime": "solar_rich",
+      "draw": "23",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "4dbbaa031b8b31316a848b39402ec1754758bfc689796ed0d4bd4edb13026da8",
+      "CV128_config_sha256": "5e94b0c6d1017a9a6196e8fe2d3225b6ffa022ca13e3a878a15d228f6c7e8ad4"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "coal_first",
+      "draw": "default",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 3,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "9cc38ca2d89ea9f6f3b006fb132e291aac0277c037e7fda061dcad65b6542e27",
+      "CV128_config_sha256": "a17872f944391b75346a5ff6fcf207e40a62c56cd43f24f9e482fc80b99eea4b"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "coal_first",
+      "draw": "11",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "4f20b215e2e5d40943d897707c533a62539b8880a5db06d1b6814f12387854e7",
+      "CV128_config_sha256": "b13b1bf458a9f4f1d814ae40659dfbe5942d358c57729be828464e25c88c3e6b"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "coal_first",
+      "draw": "23",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "d971e1eb0f22fac206c991319136262f310529c771ed793a3d88d2e2a6f9fd09",
+      "CV128_config_sha256": "5ace4f6d76825ec925952dceecbedc3a366465dacd0b9b5c3549280876f50f47"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "gas_first",
+      "draw": "default",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 3,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "f564856f8c86fe5ceffd54711958a219cff500c67a9ffa4a8306c5422953b2ae",
+      "CV128_config_sha256": "32d238f614a3bf7b6adb62fa5b7606d7c7dc7b9acc38c970f3fdf0da66a0417e"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "gas_first",
+      "draw": "11",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "f69f5efed7923e19f503bdfd9067faba4b79b5d9284817472333ba60c0cbf31c",
+      "CV128_config_sha256": "d6ebd01eb655a83f9cac523d94dc26b9228e006b1e3a79219e007b8871d902f3"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "gas_first",
+      "draw": "23",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "87677c31f31bcb1721a969254112f0310631969e16e1f112e86fa6d646e648a1",
+      "CV128_config_sha256": "78aeab5e02b96abf6f49f963e95213af4a44b3469770afefdf156bbef778bf14"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "solar_rich",
+      "draw": "default",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 3,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "8fa991466b5842a10cac029dc4a3609599d000e4c8e8b7229398a91bbbbc2687",
+      "CV128_config_sha256": "e44a5b47c66f91cd762612f40649493b00b16b1acb510658b51d59b179980715"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "solar_rich",
+      "draw": "11",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "b1d669011fb7f2610a740ae65c74b0f1d3db62d5db408721844e63e980a5176f",
+      "CV128_config_sha256": "9555644550a475f904c28dc0d62dc4476ae19c03d8f44c125959f9256d475437"
+    },
+    {
+      "demand_seed": 314159,
+      "regime": "solar_rich",
+      "draw": "23",
+      "CV32_scenarios": 32,
+      "CV128_scenarios": 128,
+      "overlap_dates": 6,
+      "CV32_nested_in_CV128": false,
+      "CV32_config_sha256": "072910863dad6871d34d0f556338bb7bed37921b9209f81c38e2bf86483b560a",
+      "CV128_config_sha256": "21ca2e92034aedfe2d1e44a18ec134c19ed0f3abd1f4c4e73f68bfe7ba344fec"
+    }
+  ],
+  "failure_dominance": [
+    {
+      "regime": "coal_first",
+      "policy": "CV8",
+      "violation_days": 104,
+      "factor_abs_gt_remainder_abs_fraction": 0.9423076923076923,
+      "factor_flip_days": 53,
+      "response_flip_days": 0
+    },
+    {
+      "regime": "coal_first",
+      "policy": "CV32",
+      "violation_days": 69,
+      "factor_abs_gt_remainder_abs_fraction": 1.0,
+      "factor_flip_days": 67,
+      "response_flip_days": 0
+    },
+    {
+      "regime": "coal_first",
+      "policy": "MARGIN",
+      "violation_days": 19,
+      "factor_abs_gt_remainder_abs_fraction": 1.0,
+      "factor_flip_days": 19,
+      "response_flip_days": 0
+    },
+    {
+      "regime": "gas_first",
+      "policy": "CV8",
+      "violation_days": 77,
+      "factor_abs_gt_remainder_abs_fraction": 0.961038961038961,
+      "factor_flip_days": 62,
+      "response_flip_days": 4
+    },
+    {
+      "regime": "gas_first",
+      "policy": "CV32",
+      "violation_days": 42,
+      "factor_abs_gt_remainder_abs_fraction": 0.9285714285714286,
+      "factor_flip_days": 38,
+      "response_flip_days": 4
+    },
+    {
+      "regime": "gas_first",
+      "policy": "MARGIN",
+      "violation_days": 24,
+      "factor_abs_gt_remainder_abs_fraction": 0.9583333333333334,
+      "factor_flip_days": 22,
+      "response_flip_days": 2
+    },
+    {
+      "regime": "solar_rich",
+      "policy": "CV8",
+      "violation_days": 92,
+      "factor_abs_gt_remainder_abs_fraction": 0.9782608695652174,
+      "factor_flip_days": 61,
+      "response_flip_days": 0
+    },
+    {
+      "regime": "solar_rich",
+      "policy": "CV32",
+      "violation_days": 54,
+      "factor_abs_gt_remainder_abs_fraction": 1.0,
+      "factor_flip_days": 54,
+      "response_flip_days": 0
+    },
+    {
+      "regime": "solar_rich",
+      "policy": "MARGIN",
+      "violation_days": 35,
+      "factor_abs_gt_remainder_abs_fraction": 0.9714285714285714,
+      "factor_flip_days": 35,
+      "response_flip_days": 0
+    }
+  ],
+  "interpretation": "Same random seed and pool do not yield nested CV32/CV128 scenario sets. Evaluation dates are paired; scenario-set composition varies. Factor dominance is diagnostic on selected violation days only."
+}

@@ -1,0 +1,39 @@
+{
+  "scope": "Original plotting-only checksum file versus initial Git commit blobs",
+  "initial_commit": "e1028e5a9ca0a06e29575428256a50fd6e504767",
+  "matched_count": 7,
+  "mismatch_count": 6,
+  "mismatches": [
+    {
+      "path": "plotting_data/eia_response_model.json",
+      "claimed_sha256": "2d341e785e14ea467363424c5eb8071f27ee7e2a699a2305f78a28cc0c4747ce",
+      "git_blob_sha256": "74b4c9d285c1303d53e966ac8ca3b1fc5836704c6a3775aa3be6806cc89a8011"
+    },
+    {
+      "path": "plotting_data/margin_calibration.json",
+      "claimed_sha256": "dfa5de9100f5f35e8bfc3358f3d0209e525f878ecc5a366f466d9eb56b18fc15",
+      "git_blob_sha256": "460bc3a3f0f8c74e6bcddc264edb8215deceeb3339df0d4421d5ddbcfc8d9768"
+    },
+    {
+      "path": "plotting_data/v3_cv32_128_bootstrap.csv",
+      "claimed_sha256": "315b4e8a1b68f242ffa5fa137ce5715d46527749c156b06799df8ac6aa93e0e3",
+      "git_blob_sha256": "eb09ed07582d30f92c404ec51da39ac24f8d0523613b7c001477d16fd07ed3c1"
+    },
+    {
+      "path": "plotting_data/v3_cv32_128_paired_daily.csv",
+      "claimed_sha256": "48acf5607de9335bef09b9d0f1dd50721953d52b17044131021765bd8ff11f8c",
+      "git_blob_sha256": "e4a3c88fdb39cfb673b664147b6cdc75f743b5ffa8a35fd0fda82d979ed55e34"
+    },
+    {
+      "path": "plotting_data/v3_cv32_128_summary.csv",
+      "claimed_sha256": "53de4c74407778c5082b70f5547cdb5163377e9c21f20efe758b5533e7eb2a59",
+      "git_blob_sha256": "f2f6c7bd5446e5b8bd729d799c26936414b0c589c24f5139abc9b2fc521c9e8a"
+    },
+    {
+      "path": "plotting_data/v3_failure_tradeoff_summary.csv",
+      "claimed_sha256": "1cd556fa8137b074bb3ecd37bccfdee2df2aecb245b36f8842128454d3773577",
+      "git_blob_sha256": "ca8fe28eed3f419f36b11e82cc88790b203729725e3db8b0c2d175f282c0f330"
+    }
+  ],
+  "note": "The original checksum JSON is archived unchanged; the current root inventories are regenerated from Git index bytes."
+}

@@ -1,0 +1,130 @@
+{
+  "definition": "(C_M1-C_S1)-(C_M0-C_S0), divided by 92 sampled days per seed",
+  "equivalent_definition": "(C_S0-C_S1)-(C_M0-C_M1), divided by 92",
+  "mean_interaction_usd_per_day": -2.603633209310118,
+  "min_per_seed": -2.6300319096851155,
+  "max_per_seed": -2.5772345089351205,
+  "version_2_error": "Version-2 Table 1 printed the opposite sign, (C_M0-C_M1)-(C_S0-C_S1). Costs and other savings were correct.",
+  "sources": [
+    {
+      "file": "results/confirmation_seed314159_2025_coal_first/B0_daily.csv",
+      "sha256": "d3048a184e56902073433f59f3f94f51be2463654993e196887060a00b801d17"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_coal_first/M0_daily.csv",
+      "sha256": "d39b762187025699c7093eb214c74e97bd7c327b8c942245f7f2f3b24f4e44d2"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_coal_first/M1_daily.csv",
+      "sha256": "18a06748d4b8245b64ae44e2bfe601888cf7952d2161ca452cd3e5edd704fb94"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_coal_first/S0_daily.csv",
+      "sha256": "0e441764a1fa027a80ba844868077dc193e28c29e82d3cb3ee283d8ea267af79"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_coal_first/S1_daily.csv",
+      "sha256": "eec8572c37473851fd1700e16c985bf23d85c5be782493dab88c00705db40ef2"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_gas_first/B0_daily.csv",
+      "sha256": "4d1d2d92a058fd203bfe75af186bf30b2b5f02f40832cbcb129016b8958b183c"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_gas_first/M0_daily.csv",
+      "sha256": "dba0fea07b9e8c55a28aad3e05ea6ed0564d0c67e0eccca30bdd2f6ff38416dc"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_gas_first/M1_daily.csv",
+      "sha256": "ffbceabf33ebbc30ae60d86f819a0551259ac363a3ad635081653d11b8a558e9"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_gas_first/S0_daily.csv",
+      "sha256": "ed387b99c9f6609eeb458fecba8e54d95e874998644641fd83acae559282f594"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_gas_first/S1_daily.csv",
+      "sha256": "6061a7d31e1d64f4ae976069c10749d318ce08cfe7694f380bdafd080aedd5f9"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_solar_rich/B0_daily.csv",
+      "sha256": "c6ad49ca0c19464f1de5fab738b4a9de062a540e74ec248c0466f0dfe0ef5bc2"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_solar_rich/M0_daily.csv",
+      "sha256": "b2a40a4aa9e8f50353deb8c271dd4efbfe2bdd64ffd188d8217a7787a2f79fc3"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_solar_rich/M1_daily.csv",
+      "sha256": "32e41ac46bd926a8f417705f40f38bffa65206257623b018b4b9f53b0f5e2830"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_solar_rich/S0_daily.csv",
+      "sha256": "5bf33301387cc86cb11dbf551f4f1e9c6bb2e6b9937665565a37998202323654"
+    },
+    {
+      "file": "results/confirmation_seed314159_2025_solar_rich/S1_daily.csv",
+      "sha256": "ef3fff5699543921b0e61aaa7005e063253dfe61cd6a715bef386d9a38ddf26e"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_coal_first/B0_daily.csv",
+      "sha256": "7e972ba38ad3183169b4afe5e99b8ed5aafa6974739785298ed6f4c380370d29"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_coal_first/M0_daily.csv",
+      "sha256": "aaafdb1f6c75cfd83c474ae0739f0c62ef2703eaf245fc3ca45feb1224b066e9"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_coal_first/M1_daily.csv",
+      "sha256": "c5bbd7b47e505d031c1de2cc5f87f0b0362929160236a8f596bc25d2dc9480aa"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_coal_first/S0_daily.csv",
+      "sha256": "7e0f1e4d1400ddbada51855d40fba063fb3ebc91be5264ca7540aa0a50f811eb"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_coal_first/S1_daily.csv",
+      "sha256": "577ea0ffc27de3bc8ed2eaf672903508e4b8f1f11e1091599169ec175bfcbbe4"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_gas_first/B0_daily.csv",
+      "sha256": "c9c831201900d53dcb70b77fab264b10b5f094161cf40fab2aa26a097b7e575a"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_gas_first/M0_daily.csv",
+      "sha256": "127afac3bc6dd8c60ea36184930e716469f84673a46d13e767820bfb8bc14bec"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_gas_first/M1_daily.csv",
+      "sha256": "7c7576fb3f08bede2e2c7fb6b1ae73ba96e825cc8cfaf96604bbb3e8cac6e08a"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_gas_first/S0_daily.csv",
+      "sha256": "8e479a0c5cece53425fe3836b97930321d18323e0df31bb4efa7e8a67c50b9eb"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_gas_first/S1_daily.csv",
+      "sha256": "33707a3942897c24b9340750bd3fd8e52081e15c546cbdaaa80c41caaef1ff32"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_solar_rich/B0_daily.csv",
+      "sha256": "a915a0e2e41fac1913fa45576509638ce92d033420bbfd8f91f206f5c0b918a2"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_solar_rich/M0_daily.csv",
+      "sha256": "f5a53668341b7c3173aec9740fc3c2685dd85e9a9645912a3285d50ae2ad0ccd"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_solar_rich/M1_daily.csv",
+      "sha256": "0e01382c62b860d52bbde42b1550547f343465602200549f9fbb831ed7cf451a"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_solar_rich/S0_daily.csv",
+      "sha256": "94bdf58eaadbaa0f42368b3d90688312fbe0b5d4a0209d8d25a01021352c772c"
+    },
+    {
+      "file": "results/confirmation_seed271828_2025_solar_rich/S1_daily.csv",
+      "sha256": "be8439e459fa95c203fa40a95a3d417382eafb57fefada2ba7fb4c7381918cdc"
+    }
+  ]
+}

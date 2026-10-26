@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "capacity": 600.0,
+    "power": 150.0,
+    "efficiency": 0.95,
+    "auxiliary": 0.003,
+    "degradation": 0.015,
+    "discomfort": 0.002,
+    "carbon_price": 0.08,
+    "alpha": 0.8,
+    "factor_error": 0.5,
+    "critical_forecast_bias": 1.0,
+    "pv_forecast_bias": 1.0,
+    "carbon_forecast_bias": 1.0,
+    "shuffle_residual_hours": false,
+    "pv_scale": 1.0,
+    "demand_scale": 1.0,
+    "flex_scale": 1.0,
+    "participation": true,
+    "grid_limit": 2000.0,
+    "time_limit": 10.0,
+    "scenario_count": 8,
+    "scenario_seed": 20261019,
+    "scenario_seasonal": false,
+    "margin": 0.0
+  },
+  "residual_dates_development_only": {
+    "None": [
+      "2022-02-23 00:00:00+00:00",
+      "2022-05-03 00:00:00+00:00",
+      "2022-09-24 00:00:00+00:00",
+      "2022-01-24 00:00:00+00:00",
+      "2022-06-17 00:00:00+00:00",
+      "2022-04-01 00:00:00+00:00",
+      "2022-07-15 00:00:00+00:00",
+      "2022-08-14 00:00:00+00:00"
+    ]
+  },
+  "year": 2023,
+  "regime": "coal_first",
+  "source_file": "data\\benchmark.csv.gz",
+  "policy": "CV8",
+  "hours": 1272,
+  "days": 53
+}

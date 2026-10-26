@@ -1,0 +1,13 @@
+{
+  "model": "Schedules are computed only for every fourth day, with full chronological historical observations used for forecasts. The solver does not optimize the three intervening days.",
+  "equivalent_skipped_day_embedding": "Under the declared no-self-discharge battery model, skipped days may be embedded as idle storage and reference flexible tasks. This preserves the terminal SOC and carried carbon inventory. It is an assumption, not simulated intervening operation.",
+  "classification": "Periodically active sampled-day evaluation with carried attributional state; neither full continuous optimized dispatch nor independent reset episodes.",
+  "initial_state": "SOC = capacity/2 and attributed carbon = 0.6 kg/kWh times opening SOC at first selected day; battery SOC returns to capacity/2 daily; carbon inventory is carried to next selected day.",
+  "causal_forecast": "The preceding 168 hourly rows are used at each selected-day issue time, including observations from skipped evaluation days.",
+  "effect_on_outputs": "Changing the carbon inventory reset convention would affect attributional ledger fields; optimizer, physical meter exchange, real expense and consequential emissions do not use opening carbon inventory. No cost/emission conclusion changes under an idle skipped-day embedding.",
+  "runs_checked": 120,
+  "max_state_gap": 0.0,
+  "max_carbon_departure_from_independent_reset": 33572.53750018681,
+  "legacy_ercot_max_departure_kg": 33572.53750018681,
+  "corrected_ercot_max_departure_kg": 180.00000000000006
+}

@@ -1,0 +1,43 @@
+{
+  "unit_identity": "metric tonnes/MWh = kg/kWh numerically; 0.2 kW per regional MW implies 0.2 kg per reported tonne in the scaled baseline.",
+  "error": "V2 used 1000*CO2_tonnes/demand_MW for average intensity and 0.2*1000*CO2_tonnes for scaled baseline, inflating both 1000-fold. The associational marginal derivative and curvature were already in kg/kWh and remain unchanged.",
+  "affected": "ERCOT-input carbon attribution and all carbon-priced controller schedules; original V2 results remain preserved for audit.",
+  "frames": [
+    {
+      "year": 2023,
+      "source": "data\\eia_erco_2022_2023_frame.csv.gz",
+      "source_sha256": "54180d7eb2b2ffd4f4e59da48259cf986cebc3432387d4328cbed35b489c421c",
+      "corrected": "data\\eia_erco_2022_2023_frame_corrected.csv.gz",
+      "corrected_sha256": "13638a5b84628858e86661081601a1dbdbef7446796e82accbe042a80be921be",
+      "rows": 17496,
+      "old_avg_range": [
+        113.22140940991312,
+        523.9001686235216
+      ],
+      "corrected_avg_range": [
+        0.11322140940991313,
+        0.5239001686235216
+      ],
+      "old_baseline_mean_kg": 3485972.0771562965,
+      "corrected_baseline_mean_kg": 3485.9720771562957
+    },
+    {
+      "year": 2024,
+      "source": "data\\eia_erco_2022_2024_frame.csv.gz",
+      "source_sha256": "e1db451127c53b22905c15cea60080f05e8027afdd705be02c563ead6a402bae",
+      "corrected": "data\\eia_erco_2022_2024_frame_corrected.csv.gz",
+      "corrected_sha256": "f87e8b2a17ea12075853a6035a03c0869410481ce3274500da4e619cddd6c5f9",
+      "rows": 26256,
+      "old_avg_range": [
+        110.14730920302112,
+        523.9001686235216
+      ],
+      "corrected_avg_range": [
+        0.11014730920302113,
+        0.5239001686235216
+      ],
+      "old_baseline_mean_kg": 3466298.431934275,
+      "corrected_baseline_mean_kg": 3466.2984319342745
+    }
+  ]
+}

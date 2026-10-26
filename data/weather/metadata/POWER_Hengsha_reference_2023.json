@@ -1,0 +1,75 @@
+{
+  "dataset": "NASA POWER source-native-resolution hourly point API",
+  "data_class": "satellite-derived solar and reanalysis/assimilation-based meteorology, not local ground observations",
+  "location": "Hengsha_reference",
+  "requested_latitude": 31.34028,
+  "requested_longitude": 121.83889,
+  "response_geometry": {
+    "type": "Point",
+    "coordinates": [
+      121.839,
+      31.34,
+      1.06
+    ]
+  },
+  "request_url": "https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=ALLSKY_SFC_SW_DWN%2CWS10M%2CWD10M%2CT2M%2CPS&community=RE&longitude=121.83889&latitude=31.34028&start=20230101&end=20231231&format=JSON&time-standard=UTC",
+  "request_parameters": {
+    "parameters": "ALLSKY_SFC_SW_DWN,WS10M,WD10M,T2M,PS",
+    "community": "RE",
+    "longitude": 121.83889,
+    "latitude": 31.34028,
+    "start": "20230101",
+    "end": "20231231",
+    "format": "JSON",
+    "time-standard": "UTC"
+  },
+  "response_header": {
+    "title": "NASA/POWER Source Native Resolution Hourly Data",
+    "api": {
+      "version": "v2.10.2",
+      "name": "POWER Hourly API"
+    },
+    "sources": [
+      "SYN1DEG",
+      "MERRA2",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "UTC",
+    "start": "20230101",
+    "end": "20231231"
+  },
+  "response_parameter_metadata": {
+    "ALLSKY_SFC_SW_DWN": {
+      "units": "Wh/m^2",
+      "longname": "All Sky Surface Shortwave Downward Irradiance"
+    },
+    "WS10M": {
+      "units": "m/s",
+      "longname": "Wind Speed at 10 Meters"
+    },
+    "WD10M": {
+      "units": "Degrees",
+      "longname": "Wind Direction at 10 Meters"
+    },
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    },
+    "PS": {
+      "units": "kPa",
+      "longname": "Surface Pressure"
+    }
+  },
+  "source_urls": [
+    "https://power.larc.nasa.gov/api/temporal/hourly/point",
+    "https://power.larc.nasa.gov/docs/services/api/temporal/hourly/"
+  ],
+  "accessed_utc": "2026-10-11T13:11:04.066929+00:00",
+  "raw_file": "raw\\POWER_Hengsha_reference_2023.json",
+  "raw_sha256": "b693445cb1f2a3773ab4e51c746c3a8f9cc30f0b61d9826dd2c041edcaea844b",
+  "raw_bytes": 818009,
+  "action": "downloaded",
+  "timestamp_semantics": "UTC start of averaging hour",
+  "spatial_method": "POWER point API; no client-side interpolation"
+}
